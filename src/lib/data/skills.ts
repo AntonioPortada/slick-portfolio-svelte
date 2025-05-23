@@ -36,6 +36,32 @@ const defineSkill = <S extends string>(
 
 export const items = [
 	defineSkill({
+		slug: 'java',
+		color: 'blue',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		logo: Assets.Java,
+		name: 'Java',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'spring',
+		color: 'green',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		logo: Assets.Spring,
+		name: 'Spring',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'swift',
+		color: 'orange',
+		description: '',
+		name: 'Swift',
+		logo: Assets.Swift,
+		category: 'pro-lang'
+	}),
+	defineSkill({
 		slug: 'js',
 		color: 'yellow',
 		description:
@@ -72,30 +98,21 @@ export const items = [
 		category: 'markup-style'
 	}),
 	defineSkill({
-		slug: 'sass',
-		color: 'pink',
+		slug: 'angular',
+		color: 'red',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.Sass,
-		name: 'Sass',
-		category: 'markup-style'
+		logo: Assets.Angular,
+		name: 'Angular',
+		category: 'framework'
 	}),
 	defineSkill({
-		slug: 'reactjs',
-		color: 'cyan',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.ReactJs,
-		name: 'React Js',
-		category: 'library'
-	}),
-	defineSkill({
-		slug: 'svelte',
-		color: 'orange',
-		description: svelte,
-		logo: Assets.Svelte,
-		name: 'Svelte',
-		category: 'library'
+		slug: 'bootstrap',
+		color: 'blue',
+		description: '',
+		logo: Assets.Bootstrap,
+		name: 'Booststrap',
+		category: 'framework'
 	})
 ] as const;
 

@@ -70,7 +70,9 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Swift: a('swift.png'),
+	Spring: a('spring.svg'),
 };
 
 export default Assets;

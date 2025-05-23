@@ -3,39 +3,30 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Name';
+export const name = 'Antonio';
 
-export const lastName = 'LastName';
+export const lastName = 'Portada';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	'In progress...';
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ 
+		platform: Platform.GitHub, 
+		link: 'https://github.com/AntonioPortada' 
+	},
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
-	},
-	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
-	{
-		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
+		link: 'https://mx.linkedin.com/in/antonio-portada'
 	},
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'antonio_portada25@hotmail.com'
 	},
 	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
-	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
+		platform: Platform.Upwork,
+		link: 'https://www.upwork.com/freelancers/~0187382d14076db02f'
 	}
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const skills = getSkills('java', 'spring', 'swift', 'angular', 'js', 'ts', 'bootstrap', 'html');
