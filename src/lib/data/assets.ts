@@ -73,6 +73,20 @@ const Assets = {
 	Postcss: a('postcss.svg'),
 	Swift: a('swift.png'),
 	Spring: a('spring.svg'),
+	SwiftUI: a('swiftui.png'),
+	Git: a('git.png'),
+	Svn: a('svn.png'),
+	Jenkins: a('jenkins.png'),
+	Hibernate: a('hibernate.png'),
+	JPA: a('spring-data.png'),
+	Mybatis: a('mybatis.png'),
+	Oracle: a('oracle.svg'),
+	MySQL: a('mysql.png'),
+	JSP: a('jsp.svg'),
+	JSF: a('jsf.png'),
+	GCP: a('gcp.png'),
+	Azure: a('azure.svg'),
+	DigitalOcean: a('digitalocean.png'),
 };
 
 export default Assets;
