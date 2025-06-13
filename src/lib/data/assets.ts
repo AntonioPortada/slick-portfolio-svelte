@@ -87,6 +87,7 @@ const Assets = {
 	GCP: a('gcp.png'),
 	Azure: a('azure.svg'),
 	DigitalOcean: a('digitalocean.png'),
+	Tomcat: a('tomcat.png'),
 };
 
 export default Assets;
