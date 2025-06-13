@@ -142,8 +142,9 @@ export const items = [
 	defineSkill({
 		slug: 'git',
 		color: 'orange',
-		description: "Version control is a core part of my workflow. I used Git to manage project repositories, coordinate changes with teams, "
-		+"and maintain stable release versions across all environments. remenber to add github actions and ci/cd pipelines - - - - - -",
+		description: "I have hands-on experience using version control across multiple team-based and solo projects. I’ve managed repositories, handled branching strategies, "
+		+"and ensured codebase stability throughout the development lifecycle. Additionally, I implemented GitHub Actions to automate CI/CD workflows, particularly for "
+		+"deploying static sites and web applications to GitHub Pages — streamlining releases and improving deployment consistency.",
 		logo: Assets.Git,
 		name: 'Git',
 		category: 'versions'
